@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080b0a">
+    <meta name="description" content="TRIVEXORA — Discover digital tools, explore new ideas, and build something extraordinary.">
+
+    <title>TRIVEXORA — Explore Beyond</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">T</span>
+            <span>TRIVE<span class="green-text">XORA</span></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#explore" class="nav-link">Explore</a>
+            <a href="#about" class="nav-link">About</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="theme-button" id="themeButton" aria-label="Toggle theme">
+                ◐
+            </button>
+
+            <a href="#explore" class="nav-cta">
+                Get Started <span>↗</span>
+            </a>
+
+            <button class="menu-button" id="menuButton" aria-label="Open menu">
+                ☰
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section-container" id="home">
+
+            <div class="hero-content">
+
+                <div class="announcement">
+                    <span class="status-dot"></span>
+                    YOUR NEXT DIGITAL EXPERIENCE STARTS HERE
+                </div>
+
+                <h1>
+                    Explore beyond.<br>
+                    Create <span class="gradient-text">what's next.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover powerful digital tools, unlock fresh ideas,
+                    and turn your next big thought into something extraordinary.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#explore" class="primary-button">
+                        Explore the platform <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="secondary-button">
+                        Discover more <span>→</span>
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <div class="trust-icon">✦</div>
+                    <div>
+                        <strong>Built for curious minds</strong>
+                        <p>Ideas start here. Possibilities follow.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Hero Visual -->
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="floating-card card-top">
+                    <span class="mini-icon purple">✧</span>
+                    <div>
+                        <strong>Think Different</strong>
+                        <small>Ideas without limits</small>
+                    </div>
+                    <span class="card-arrow">↗</span>
+                </div>
+
+                <div class="main-visual-card">
+
+                    <div class="visual-card-top">
+                        <span class="window-dots">
+                            <i></i><i></i><i></i>
+                        </span>
+
+                        <span class="live-label">
+                            <span class="status-dot"></span> ONLINE
+                        </span>
+                    </div>
+
+                    <div class="visual-symbol">
+                        <div class="symbol-ring ring-one"></div>
+                        <div class="symbol-ring ring-two"></div>
+                        <div class="symbol-core">T</div>
+                        <span class="symbol-star star-one">✦</span>
+                        <span class="symbol-star star-two">✧</span>
+                    </div>
+
+                    <div class="visual-card-footer">
+                        <div>
+                            <small>YOUR DIGITAL SPACE</small>
+                            <h3>Beyond Ordinary.</h3>
+                        </div>
+                        <div class="visual-arrow">↗</div>
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-bottom">
+                    <span class="mini-icon green">⌘</span>
+                    <div>
+                        <strong>One Space</strong>
+                        <small>Endless possibilities</small>
+                    </div>
+                    <span class="online-indicator"></span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Feature Strip -->
+        <section class="feature-strip section-container">
+
+            <div class="feature-item">
+                <span class="feature-icon">✦</span>
+                <div>
+                    <strong>Fresh Ideas</strong>
+                    <p>Think outside the box</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <span class="feature-icon">⌘</span>
+                <div>
+                    <strong>Smart Tools</strong>
+                    <p>Make every move count</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <span class="feature-icon">↗</span>
+                <div>
+                    <strong>New Possibilities</strong>
+                    <p>Find your next direction</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Explore Section -->
+        <section class="explore-section section-container" id="explore">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">THE COLLECTION</span>
+                    <h2>Find your <span class="gradient-text">next move.</span></h2>
+                    <p>Explore a collection of digital experiences made for curious minds.</p>
+                </div>
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search experiences..."
+                        aria-label="Search experiences"
+                    >
+                    <kbd>/</kbd>
+                </div>
+
+            </div>
+
+            <div class="category-list" id="categoryList">
+                <button class="category-button selected" data-category="all">All Tools</button>
+                <button class="category-button" data-category="creative">Creative</button>
+                <button class="category-button" data-category="productivity">Productivity</button>
+                <button class="category-button" data-category="technology">Technology</button>
+            </div>
+
+            <div class="tools-grid" id="toolsGrid">
+
+                <article class="tool-card" data-category="creative" data-search="pixel studio design creative">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-purple">✳</div>
+                        <span class="tool-number">01 / CREATIVE</span>
+                    </div>
+
+                    <h3>Pixel Studio</h3>
+
+                    <p>
+                        A space for visual inspiration, design concepts,
+                        and creative experiments.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="tool-card featured-tool" data-category="technology" data-search="code lab programming technology developer">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-green">⌘</div>
+                        <span class="tool-number">02 / TECH</span>
+                    </div>
+
+                    <h3>Code Lab</h3>
+
+                    <p>
+                        Explore programming concepts, development ideas,
+                        and your next technical project.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="tool-card" data-category="productivity" data-search="focus flow productivity planning">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-blue">◈</div>
+                        <span class="tool-number">03 / FOCUS</span>
+                    </div>
+
+                    <h3>Focus Flow</h3>
+
+                    <p>
+                        Organize your ideas, prioritize your goals,
+                        and keep your workflow moving.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="tool-card" data-category="creative" data-search="idea forge brainstorming innovation">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-orange">✧</div>
+                        <span class="tool-number">04 / IDEAS</span>
+                    </div>
+
+                    <h3>Idea Forge</h3>
+
+                    <p>
+                        Discover inspiration and develop your thoughts
+                        into meaningful new concepts.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="tool-card" data-category="technology" data-search="data space analytics information">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-pink">▦</div>
+                        <span class="tool-number">05 / DATA</span>
+                    </div>
+
+                    <h3>Data Space</h3>
+
+                    <p>
+                        Discover new ways to organize information
+                        and understand your digital world.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="tool-card" data-category="productivity" data-search="next step goals planning productivity">
+                    <div class="tool-card-top">
+                        <div class="tool-icon icon-yellow">➜</div>
+                        <span class="tool-number">06 / GROWTH</span>
+                    </div>
+
+                    <h3>Next Step</h3>
+
+                    <p>
+                        Turn ambitious goals into clear next steps
+                        and start moving forward.
+                    </p>
+
+                    <a href="#about" class="tool-link">
+                        Explore tool <span>↗</span>
+                    </a>
+                </article>
+
+            </div>
+
+            <div class="empty-state" id="emptyState" hidden>
+                <span>⌕</span>
+                <h3>No results found</h3>
+                <p>Try another keyword or choose a different category.</p>
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-container" id="about">
+
+            <div class="about-panel">
+
+                <div class="about-decoration">T.</div>
+
+                <div class="about-content">
+                    <span class="section-label">WHY TRIVEXORA?</span>
+
+                    <h2>
+                        Your ideas deserve<br>
+                        <span class="gradient-text">a bigger space.</span>
+                    </h2>
+
+                    <p>
+                        TRIVEXORA is built around a simple idea:
+                        technology should make exploring, creating,
+                        and discovering new possibilities feel natural.
+                    </p>
+
+                    <a href="#explore" class="primary-button">
+                        Start Exploring <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="about-side">
+                    <div class="about-stat">
+                        <span>01</span>
+                        <div>
+                            <strong>Explore</strong>
+                            <p>Find something new.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stat">
+                        <span>02</span>
+                        <div>
+                            <strong>Create</strong>
+                            <p>Bring your ideas to life.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stat">
+                        <span>03</span>
+                        <div>
+                            <strong>Evolve</strong>
+                            <p>Keep moving forward.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta section-container">
+
+            <span class="section-label">THE NEXT CHAPTER</span>
+
+            <h2>Ready to explore<br><span class="gradient-text">something different?</span></h2>
+
+            <p>Your next idea could start with one click.</p>
+
+            <a href="#explore" class="primary-button">
+                Discover TRIVEXORA <span>↗</span>
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">T</span>
+            <span>TRIVE<span class="green-text">XORA</span></span>
+        </a>
+
+        <p>Built with curiosity. Designed for what's next.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+
+        <div class="footer-bottom">
+            <span>© <span id="currentYear"></span> TRIVEXORA</span>
+            <span>Explore beyond the ordinary.</span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
